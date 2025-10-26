@@ -1,0 +1,352 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* this is for  */
+.homeLayoutHeading {
+    font-weight: 800;
+    font-size: 20px;
+    color: #03061f
+}
+
+.popularRecipeCardTitle {
+    border-radius: 20px;
+    padding: 6px 16px;
+    width: 85px;
+    height: 30px;
+    background: #03061f;
+    color: white;
+}
+
+.popularRecipeCardTitle2 {
+    border-radius: 20px;
+    padding: 6px 16px;
+    width: 70px;
+    height: 30px;
+    background: #f6f6fa;
+    color: #98a2b3;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+/*this is for spacial part heading */
+.spacialHeading {
+    color: rgba(255, 255, 255, 1);
+
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.spacialText {
+    color: rgba(255, 255, 255, 1);
+
+    font-family: Plus Jakarta Sans;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 182px;
+
+}
+
+/* this is for claim button */
+.claimButton {
+    color: rgba(237, 71, 74, 1);
+    margin-top: 13px;
+    font-family: Plus Jakarta Sans;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    /* Frame 427318850 */
+    width: 97px;
+    height: 30px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 20px 0px rgba(51, 51, 51, 0.25);
+    background: rgba(255, 255, 255, 1);
+}
+
+/* this is for spaical layout */
+.spacialLyout {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+/* home layout input part  */
+.homeLayoutInput {
+    height: 40px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 183;
+    padding: 10px 16px 10px 16px;
+    box-sizing: border-box;
+    border: 1px solid rgba(234, 236, 240, 1);
+    border-radius: 5px;
+    margin-top: 32px;
+}
+
+/* this is for Popular picks🍲 */
+
+.popularPicksHeading {
+    color: rgba(237, 71, 74, 1);
+
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* this is for see more button */
+.seeMoreButton {
+    /* Frame 427318860 */
+    white-space: nowrap;
+    width: 78px;
+    height: 30px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(249, 250, 251, 1);
+    color: rgba(152, 162, 179, 1)
+}
+
+.popularPicksCard {
+    /* Food card 1 */
+    width: 123px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12;
+
+
+}
+
+.popularPic {
+    /* Rectangle 2878 */
+    width: 123px;
+    height: 151px;
+    border-radius: 5px;
+}
+
+.popularPicksCardTitle {
+    color: rgba(3, 7, 30, 1);
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.popularPicksCardPrice {
+    color: rgba(152, 162, 179, 1);
+    font-family: Plus Jakarta Sans;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.deliveryTime {
+    color: rgba(3, 7, 30, 1);
+    font-family: Plus Jakarta Sans;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* this is for  */
+.foodsDetails_heading {
+    color: rgba(3, 7, 30, 1);
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+    white-space: nowrap;
+    width: 100%;
+}
+
+/* this is for count foods */
+.countFoods {
+    /* Ellipse 1217 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    box-sizing: border-box;
+}
+
+.countFoods:hover {
+    /* Ellipse 1217 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 1px solid rgba(152, 162, 179, 1);
+    background: rgba(255, 255, 255, 1)
+}
+
+/* this is for details img */
+.details_img {
+    height: 441px;
+    background: rgba(255, 255, 255, 1);
+}
+
+/* this is for back button */
+.backButton {
+    /* Frame 427318872 */
+    width: 30px;
+    height: 30px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 10px;
+    border-radius: 22px;
+    background: rgba(249, 250, 251, 1)
+}
+
+.middle_location {
+    /* Frame 427318859 */
+    width: 132px;
+    height: 32px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 10px;
+    border-radius: 22px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.nowrap {
+    white-space: nowrap;
+    color: rgba(249, 250, 251, 1);
+    font-size: 10px;
+}
+
+.textSize10 {
+    font-size: 10;
+    color: #98a3b2;
+}
+
+.textSize2 {
+    color: black;
+}
+
+.descriptionCaption {
+    color: rgba(152, 162, 179, 1);
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.description {
+    color: rgba(3, 7, 30, 1);
+    font-family: Plus Jakarta Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* this is for Place order x1 */
+
+.placeOrder_btn {
+    /* Order btn */
+    width: 100%;
+    height: 50px;
+    margin-bottom: 18;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 10px 92px 10px 92px;
+
+    border-radius: 35px;
+    background: linear-gradient(176.27deg, rgba(249.2624969482422, 135.88949584960938, 31.237516403198242, 1), rgba(237, 71, 74, 1) 100%)
+}
+
+/* this is for Place order x1 text*/
+.placeOrder_text {
+    color: rgba(255, 255, 255, 1);
+
+    font-family: Plus Jakarta Sans;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* this is for rating star */
+.rating_star {
+    /* Frame 427318865 */
+    width: 101px;
+    height: 40px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10;
+    padding: 5px 15px 5px 15px;
+    border-radius: 30px;
+    background: rgba(249, 250, 251, 0.5);
+    color: rgba(3, 7, 30, 1);
+
+    font-family: Plus Jakarta Sans;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
