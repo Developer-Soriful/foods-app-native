@@ -6,6 +6,12 @@ export const popularRecipes = [
     { id: 4, name: "Hot sales🥧", },
     { id: 5, name: "Promotion", },
 ]
+export const yourOrders = [
+    { id: 1, name: "Pending", },
+    { id: 2, name: "Completed", },
+    { id: 3, name: "Cancelled", },
+    { id: 4, name: "Special orders", },
+]
 
 // this is for popular picks data
 export const popularPicksData = [
