@@ -261,9 +261,30 @@
     background: rgba(255, 255, 255, 0.4);
 }
 
+.middle_location2 {
+    /* Frame 427318859 */
+    width: 154px;
+    height: 32px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 10px;
+    border-radius: 22px;
+    background: rgba(234, 236, 240, 1)
+}
+
 .nowrap {
     white-space: nowrap;
     color: rgba(249, 250, 251, 1);
+    font-size: 10px;
+}
+
+.nowrap2 {
+    white-space: nowrap;
+    color: rgba(3, 7, 30, 1);
     font-size: 10px;
 }
 
@@ -300,7 +321,7 @@
 
 .placeOrder_btn {
     /* Order btn */
-    width: 100%;
+    width: 90%;
     height: 50px;
     margin-bottom: 18;
     /* Auto layout */
@@ -309,15 +330,41 @@
     justify-content: center;
     align-items: center;
     gap: 10;
-    padding: 10px 92px 10px 92px;
-
+    padding: 10px;
     border-radius: 35px;
     background: linear-gradient(176.27deg, rgba(249.2624969482422, 135.88949584960938, 31.237516403198242, 1), rgba(237, 71, 74, 1) 100%)
+}
+
+.back_btn {
+    /* Order btn */
+    width: 90%;
+    height: 50px;
+    margin-bottom: 18;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 10px;
+    border-radius: 35px;
+    background: white;
 }
 
 /* this is for Place order x1 text*/
 .placeOrder_text {
     color: rgba(255, 255, 255, 1);
+
+    font-family: Plus Jakarta Sans;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.backOrder_text {
+    color: #03061f;
 
     font-family: Plus Jakarta Sans;
     font-size: 12px;
@@ -349,4 +396,27 @@
     line-height: 30px;
     letter-spacing: 0%;
     text-align: left;
+}
+
+/* this is for live tracking caption */
+.liveTrackingCaption {
+    color: rgba(3, 7, 30, 1);
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+/* this is for border style */
+.border_style {
+    position: absolute;
+    width: 230px;
+    bottom: 10;
+    margin-left: 80px;
+    border-radius: 100px;
+    left: 0;
+    border: 5px solid rgba(234, 236, 240, 5)
 }

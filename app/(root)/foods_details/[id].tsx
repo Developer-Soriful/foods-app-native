@@ -2,7 +2,7 @@ import { popularPicksData } from '@/constans';
 import { MaterialCommunityIcons, MaterialIcons, SimpleLineIcons } from '@expo/vector-icons';
 import { router, Stack, useLocalSearchParams } from 'expo-router';
 import React, { useState } from 'react';
-import { ImageBackground, ScrollView, Text, View } from 'react-native';
+import { ImageBackground, ScrollView, Text, TouchableOpacity, View } from 'react-native';
 
 const FoodsDetails = () => {
     // this is count foods state
@@ -142,8 +142,17 @@ const FoodsDetails = () => {
                         <Text className='descriptionCaption'>Description</Text>
                         <Text className='description'>{description}</Text>
                     </View>
-                    <View className='placeOrder_btn'>
-                        <Text className='placeOrder_text'>Place order x1</Text>
+                    <View
+                        style={{
+                            display: "flex",
+                            flexDirection: "row",
+                            justifyContent: "center",
+                            alignItems: "center",
+                        }}
+                    >
+                        <TouchableOpacity onPress={() => router.push(`/orders/track_live`)} className='placeOrder_btn'>
+                            <Text className='placeOrder_text'>Place order x1</Text>
+                        </TouchableOpacity>
                     </View>
                 </View>
             </View>
