@@ -379,3 +379,160 @@ export const popularPicksData = [
 
 
 
+// this is for your order section dummy data 
+export const ordersData = [
+    {
+        "food_name": "Catfish Peppersoup",
+        "price": "₦5,000",
+        "delivery_time": "10 mins",
+        "status": "Completed",
+        "image_url": "https://www.shutterstock.com/search/nigerian-catfish-pepper-soup"
+    },
+    {
+        "food_name": "Jollof Rice with Chicken",
+        "price": "₦3,200",
+        "delivery_time": "15 mins",
+        "status": "Order Fulfilled",
+        "image_url": "https://www.shutterstock.com/search/jollof-rice-chicken"
+    },
+    {
+        "food_name": "Pounded Yam & Egusi Soup",
+        "price": "₦4,500",
+        "delivery_time": "20 mins",
+        "status": "Completed",
+        "image_url": "https://www.shutterstock.com/search/egusi-pounded-yam"
+    },
+    {
+        "food_name": "Goat Meat Peppersoup",
+        "price": "₦4,800",
+        "delivery_time": "12 mins",
+        "status": "Order Cancelled",
+        "image_url": "https://www.shutterstock.com/search/african-pepper-soup"
+    },
+    {
+        "food_name": "Ofada Rice & Stew",
+        "price": "₦3,900",
+        "delivery_time": "18 mins",
+        "status": "Special Orders",
+        "image_url": "https://www.shutterstock.com/search/ofada-stew"
+    },
+    {
+        "food_name": "Efo Riro with White Rice",
+        "price": "₦3,700",
+        "delivery_time": "14 mins",
+        "status": "Completed",
+        "image_url": "https://www.shutterstock.com/search/efo-riro"
+    },
+    {
+        "food_name": "Grilled Tilapia with Fries",
+        "price": "₦6,000",
+        "delivery_time": "16 mins",
+        "status": "Order Fulfilled",
+        "image_url": "https://www.shutterstock.com/search/grilled-tilapia-africa"
+    },
+    {
+        "food_name": "Suya Spiced Beef",
+        "price": "₦2,800",
+        "delivery_time": "9 mins",
+        "status": "Completed",
+        "image_url": "https://www.shutterstock.com/search/suya"
+    },
+    {
+        "food_name": "Coconut Rice with Shrimp",
+        "price": "₦4,200",
+        "delivery_time": "13 mins",
+        "status": "Order Cancelled",
+        "image_url": "https://www.shutterstock.com/search/coconut-rice"
+    },
+    {
+        "food_name": "Okra Soup with Fufu",
+        "price": "₦3,600",
+        "delivery_time": "17 mins",
+        "status": "Special Orders",
+        "image_url": "https://www.shutterstock.com/search/okra-soup"
+    },
+    {
+        "food_name": "Moi Moi & Pap",
+        "price": "₦2,000",
+        "delivery_time": "10 mins",
+        "status": "Completed",
+        "image_url": "https://www.shutterstock.com/search/moi-moi"
+    },
+    {
+        "food_name": "Beef Burger Combo",
+        "price": "₦5,300",
+        "delivery_time": "12 mins",
+        "status": "Order Fulfilled",
+        "image_url": "https://www.shutterstock.com/search/beef-burger"
+    },
+    {
+        "food_name": "Grilled Chicken Salad",
+        "price": "₦4,100",
+        "delivery_time": "11 mins",
+        "status": "Completed",
+        "image_url": "https://www.shutterstock.com/search/grilled-chicken-salad"
+    },
+    {
+        "food_name": "Spaghetti Jollof & Turkey",
+        "price": "₦3,800",
+        "delivery_time": "14 mins",
+        "status": "Order Cancelled",
+        "image_url": "https://www.shutterstock.com/search/spaghetti-jollof"
+    },
+    {
+        "food_name": "Yam Porridge",
+        "price": "₦2,700",
+        "delivery_time": "10 mins",
+        "status": "Special Orders",
+        "image_url": "https://www.shutterstock.com/search/yam-porridge"
+    },
+    {
+        "food_name": "Afang Soup & Garri",
+        "price": "₦3,900",
+        "delivery_time": "18 mins",
+        "status": "Completed",
+        "image_url": "https://www.shutterstock.com/search/afang-soup"
+    },
+    {
+        "food_name": "Fried Rice with Beef",
+        "price": "₦3,400",
+        "delivery_time": "12 mins",
+        "status": "Order Fulfilled",
+        "image_url": "https://www.shutterstock.com/search/fried-rice-beef"
+    },
+    {
+        "food_name": "Native Soup & Semovita",
+        "price": "₦4,000",
+        "delivery_time": "15 mins",
+        "status": "Order Cancelled",
+        "image_url": "https://www.shutterstock.com/search/native-soup"
+    },
+    {
+        "food_name": "Pepper Chicken Wings",
+        "price": "₦3,200",
+        "delivery_time": "9 mins",
+        "status": "Special Orders",
+        "image_url": "https://www.shutterstock.com/search/pepper-chicken-wings"
+    },
+    {
+        "food_name": "Seafood Okro",
+        "price": "₦5,500",
+        "delivery_time": "20 mins",
+        "status": "Completed",
+        "image_url": "https://www.shutterstock.com/search/seafood-okro"
+    },
+    {
+        "food_name": "Beans & Dodo",
+        "price": "₦2,300",
+        "delivery_time": "8 mins",
+        "status": "Order Fulfilled",
+        "image_url": "https://www.shutterstock.com/search/beans-dodo"
+    },
+    {
+        "food_name": "Oha Soup with Pounded Yam",
+        "price": "₦4,600",
+        "delivery_time": "17 mins",
+        "status": "Order Cancelled",
+        "image_url": "https://www.shutterstock.com/search/oha-soup"
+    }
+]
